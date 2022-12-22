@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nagaroo.javatest.Banking.BankingServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.462 s - in com.nagaroo.javatest.Banking.BankingServiceTest

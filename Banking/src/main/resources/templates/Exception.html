@@ -1,0 +1,41 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	
+	<head>
+	<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ body div {
+        text-align: center;
+    }
+</style>
+		<title>Statement</title>
+		
+		<link rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+			crossorigin="anonymous" />
+	</head>
+	
+	<body>
+	
+	
+	<div align="center">
+    <h2>information</h2>
+    <span>Error:</span><span th:text="${exception}"></span><br/>
+    
+   
+</div>
+		
+		
+<form th:action="@{/statement/userInput}" method="get">
+		  <div>
+        <input type="submit" value="go back to query" /> 
+         </div>
+         
+         </form>
+	</body>
+	
+</html>
